@@ -1,0 +1,127 @@
+/* Group Info Section */
+.group-info {
+    text-align: center;
+    padding: 30px;
+    background-color: #ffcccb;
+}
+
+.group-info h1 {
+    font-size: 36px;
+    color: #fff;
+}
+
+.group-photo {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Main Content */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+header {
+    background-color: #ffcccb;
+    color: white;
+    padding: 30px;
+}
+
+.family-members, .ceremony {
+    padding: 20px;
+}
+
+footer {
+    background-color: #ffcccb;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Family Members Section */
+.family-members h3 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.member {
+    position: relative;
+    width: 180px;
+    height: 240px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.member:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.member img {
+    width: 100%;
+    height: 160px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+.member p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #444;
+}
+
+/* Colorful Background for Each Member */
+.member:nth-child(1) {
+    background-color: #ffb6c1;
+}
+.member:nth-child(2) {
+    background-color: #add8e6;
+}
+.member:nth-child(3) {
+    background-color: #98fb98;
+}
+.member:nth-child(4) {
+    background-color: #ffebcd;
+}
+
+/* Nihanth's Naming Ceremony Section */
+.hidden {
+    display: none;
+}
+
+.ceremony {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #ffe4e1;
+    border-radius: 15px;
+}
+
+.ceremony h3 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.ceremony p {
+    font-size: 18px;
+    line-height: 1.6;
+}
